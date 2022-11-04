@@ -1,0 +1,9 @@
+<div *ngIf="!listado">
+    <img src="https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif" />
+</div>
+<div *ngIf="listado?.length === 0">
+    <p>No hay películas para mostrar</p>
+</div>
+<ng-container *ngIf="listado && listado.length > 0">
+    <ng-content-select="[contenido]"></ng-content-select>
+</ng-container>
