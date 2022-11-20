@@ -9,23 +9,41 @@ export class AppComponent  implements OnInit{
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.peliculasEnCines = [{
-        titulo: 'Spider-Man',
-        fechaLanzamiento: new Date(),
-        precio: 1400.99
-      },
-      {
-        titulo: 'Moana',
-        fechaLanzamiento: new Date('2016-11-14'),
-        precio: 300.99
-      }
+      this.peliculasEnCines = [
+        {
+          titulo: 'Spider-Man',
+          fechaLanzamiento: new Date(),
+          precio: 1400.99
+        },
+        {
+          titulo: 'Moana',
+          fechaLanzamiento: new Date('2016-11-14'),
+          precio: 300.99
+        },
+        {
+          titulo: 'Spider-Man',
+          fechaLanzamiento: new Date(),
+          precio: 1400.99
+        },
+        {
+          titulo: 'Moana',
+          fechaLanzamiento: new Date('2016-11-14'),
+          precio: 300.99
+        },
+        {
+          titulo: 'Spider-Man',
+          fechaLanzamiento: new Date(),
+          precio: 1400.99
+        },
+      
     ]
    
     }, 0o0);
    
   }
   peliculasEnCines;
-  peliculasEnProximosExtrenos=[{
+  peliculasEnProximosExtrenos=[
+    /*{
     titulo: 'Avengers: Endgame',
     fechaLanzamiento: new Date(),
     precio: 1400.99
@@ -39,7 +57,7 @@ export class AppComponent  implements OnInit{
     titulo: 'Rocky',
     fechaLanzamiento: new Date('2016-11-14'),
     precio: 300.99
-  },
+  }, */
 ]
   
   title = 'el valor que yo quiera';
