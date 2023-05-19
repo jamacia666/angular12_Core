@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 "# angular12_Core" 
 "# angular12_Core" 
 "# angular12_Core_Siguiente" 
+"# angular12_Core_Siguiente2" 
